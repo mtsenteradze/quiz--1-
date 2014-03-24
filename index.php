@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<form id="book-form" method="post" action="/bookregistration.php">
+<form id="book-form" method="post" action="book-registration.php">
 	<fieldset>
 		<legen>Register Book</legend>
 		<div>
