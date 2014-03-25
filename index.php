@@ -2,10 +2,11 @@
 <html>
 <head>
 	<title>book registration</title>
+	<script src = "books.js" type="text/javascript"></script>
 </head>
 <body>
 
-<form id="book-form" method="post" action="book-registration.php">
+<form onsubmit="myFunction()" method="post" action="book-registration.php">
 	<fieldset>
 		<legen>Register Book</legend>
 		<div>
@@ -21,10 +22,11 @@
 			</label>
 		</div>
 		<div>
-		<button type="submit" name="register">Register</button>
+		<button id = "submit" type="submit" name="register">Register</button>
 		</div>
 	</fieldset>
 </form>
+
 
 </body>
 </html>
